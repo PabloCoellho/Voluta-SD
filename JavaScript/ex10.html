@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prática</title>
+    <style>
+        body {
+            background-color: brown;
+        }
+        h1 {
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <h1>Sistema de Nacionalidade</h1>
+    Lugar onde nasceu: <input type="text" id="pais">
+    <input type="button" value="Enviar" onclick="verificar()">
+    <div id="res">
+
+    </div>
+    <script>
+        
+        var txt = document.getElementById('pais')
+
+        var res = document.querySelector('div#res')
+
+                        
+        function verificar() {
+
+            res.innerHTML = `<p>Você mora em ${txt.value}</p>`
+
+            if (txt.value == 'Brasil') {
+                res.innerHTML += `<p>Você é brasileiro!</p>`
+            } 
+            else {
+                res.innerHTML += `<p>Você é estrangeiro!</p>`
+            }
+            
+                
+                
+        }
+    </script>
+</body>
+</html>
