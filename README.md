@@ -1,3 +1,3 @@
 # Voluta Soluções Digitais
 
-Este repositório contém dois dos projetos desenvolvidos na Voluta Soluções Digitais.
+Este repositório contém dois projetos que desenvolvi durante meu período na Voluta Soluções Digitais.
